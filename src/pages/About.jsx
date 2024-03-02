@@ -1,6 +1,9 @@
+import { useState } from "react"
 
 
 const About = () => {
+  const [user,setUser]=useState()
+  
   return (
     <div className="about">
       <h2>About</h2>
